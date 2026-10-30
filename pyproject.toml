@@ -1,0 +1,10 @@
+[project]
+name = "coc-leagues-back"
+version = "1.0.0"
+description = "CoC Leagues Backend API on FastAPI, Lakebase Postgres, Neon Auth, and Neon Realtime"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

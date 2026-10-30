@@ -1,0 +1,7 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "coc-leagues-back"
+version = "1.0.0"
+source = { virtual = "." }
